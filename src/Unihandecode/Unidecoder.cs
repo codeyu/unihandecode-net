@@ -12,10 +12,10 @@ namespace Unihandecode
 
         }
 
-        private void LoadCodePoints()
+        private void LoadCodePoints(string lang)
         {
             var assembly = typeof(Unihandecode.Unidecoder).GetTypeInfo().Assembly;
-            using(var resource = assembly.GetManifestResourceStream("Unihandecode._gz.Unihan_Readings.gz"))
+            using(var resource = assembly.GetManifestResourceStream($"Unihandecode._gz.{lang}_codepoints.gz"))
             using (GZipStream decompressionStream = new GZipStream(resource, CompressionMode.Decompress))
             {
                 using (StreamReader unzip = new StreamReader(decompressionStream))
