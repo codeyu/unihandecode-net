@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3FD5B186-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unihandecode.Test", "test\Unihandecode.Test\Unihandecode.Test.csproj", "{A8A59DF0-BB84-4D97-9999-A4E1925572A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenCodemap", "GenCodemap\GenCodemap.csproj", "{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,18 @@ Global
 		{A8A59DF0-BB84-4D97-9999-A4E1925572A6}.Release|x64.Build.0 = Release|Any CPU
 		{A8A59DF0-BB84-4D97-9999-A4E1925572A6}.Release|x86.ActiveCfg = Release|Any CPU
 		{A8A59DF0-BB84-4D97-9999-A4E1925572A6}.Release|x86.Build.0 = Release|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Debug|x64.Build.0 = Debug|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Debug|x86.Build.0 = Debug|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Release|x64.ActiveCfg = Release|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Release|x64.Build.0 = Release|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Release|x86.ActiveCfg = Release|Any CPU
+		{E555E9A1-3886-4DB9-B125-C6C9AE3AF837}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6C14FC57-0C8E-4B25-A57E-49B01B4993F0} = {02209D07-C19F-4006-8DBC-61A0E31FDDA1}
